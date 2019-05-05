@@ -1,0 +1,68 @@
+Buildfile: /home/chelsa/Cloudsim-Task-Scheduling/build.xml
+
+fcfs:
+     [echo]         Executing "taskscheduling.jar" 
+     [echo]     -------------------------------------- 
+     [echo]     | log file  : log/taskscheduling.log |
+     [echo]     | configure : etc/establishment.xml  |
+     [echo]     -------------------------------------- 
+     [echo] 
+     [java] Starting FCFS Scheduler...
+     [java] Reading the Matrices...
+     [java] Initialising...
+     [java] Starting CloudSim version 3.0
+     [java] Datacenter_0 is starting...
+     [java] Broker_0 is starting...
+     [java] Entities started.
+     [java] 0.0: Broker_0: Cloud Resource List received with 1 resource(s)
+     [java] 0.0: Broker_0: Trying to Create VM #2 in Datacenter_0
+     [java] [VmScheduler.vmCreate] Allocation of VM #2 to Host #0 failed by RAM
+     [java] 0.1: Broker_0: Creation of VM #2 failed in Datacenter #2
+     [java] 0.1: Broker_0: none of the required VMs could be created. Aborting
+     [java] Broker_0 is shutting down...
+     [java] Simulation: No more future events
+     [java] CloudInformationService: Notify all CloudSim entities for shutting down.
+     [java] Datacenter_0 is shutting down...
+     [java] Broker_0 is shutting down...
+     [java] Simulation completed.
+     [java] Simulation completed.
+     [java] 
+     [java] ========== OUTPUT ==========
+     [java] Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
+     [java] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+     [java] 	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+     [java] 	at java.util.ArrayList.get(ArrayList.java:433)
+     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.calcMakespan(FCFS_Scheduler.java:168)
+     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.printCloudletList(FCFS_Scheduler.java:159)
+     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.main(FCFS_Scheduler.java:111)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:218)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:153)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:772)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:222)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:136)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:109)
+     [java] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
+     [java] 	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+     [java] 	at org.apache.tools.ant.Task.perform(Task.java:348)
+     [java] 	at org.apache.tools.ant.Target.execute(Target.java:435)
+     [java] 	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+     [java] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)
+     [java] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1376)
+     [java] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     [java] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
+     [java] 	at org.apache.tools.ant.Main.runBuild(Main.java:853)
+     [java] 	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+     [java] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:285)
+     [java] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:112)
+     [java] The simulation has been terminated due to an unexpected error
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

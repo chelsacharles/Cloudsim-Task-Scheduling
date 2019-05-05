@@ -95,7 +95,7 @@ public class Application {
 		Log.print(indent + indent + indent + indent);
 		Log.printLine("========== OUTPUT ==========");
 		Log.printLine(	"Cloudlet ID"	+ indent + 
-						"STATUS_STATE"		+ indent +
+						"STATUS"		+ indent +
 						"DC ID"			+ indent + 
 						"VM ID"			+ indent +  
 						"Time"			+ indent + 

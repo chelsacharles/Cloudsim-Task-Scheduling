@@ -55,7 +55,7 @@ public class Parameter {
 	
 	
 	private void parse(String filename) throws DocumentException {
-		filename="/home/chelsa/GA-for-taskscheduling-in-Cloudsim-master/etc/genetic_algorithm.xml";
+		filename="etc/genetic_algorithm.xml";
 		File inFile = new File(filename);
 		SAXReader reader = new SAXReader();
 		docConfig = reader.read(inFile);
