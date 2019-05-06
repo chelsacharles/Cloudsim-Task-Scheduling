@@ -218,11 +218,11 @@ public class Establishment {
 			policyName = policyNode.getText();
 			PolicyClass = null; 
 			try {
-				PolicyClass = Class.forName(policyName); 
+				PolicyClass = Class.forName(policyName); //linking with this class
 				Constructor<?> PolicyConstruct = PolicyClass.getConstructor(
 														List.class, List.class);
-				Object obj = PolicyConstruct.newInstance(vmList, cloudletList);
-				Method PolicyApproach = PolicyClass.getMethod("Execute");
+				Object obj = PolicyConstruct.newInstance(vmList, cloudletList);// object of scheduler
+				Method PolicyApproach = PolicyClass.getMethod("Execute");// execute function
 				List<Integer>  results = (List<Integer>)PolicyApproach.invoke(obj);	
 				for(int i=0; i<results.size(); i+=2){
 					int vmId = results.get(i);

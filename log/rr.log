@@ -8,7 +8,7 @@ rr:
      [echo]     -------------------------------------- 
      [echo] 
      [java] Starting Round Robin Scheduler...
-     [java] Reading the Matrices...
+     [java] Initializing new Matrices...
      [java] Initialising...
      [java] Starting CloudSim version 3.0
      [java] Datacenter_0 is starting...
@@ -29,72 +29,72 @@ rr:
      [java] 0.1: Broker_0: VM #4 has been created in Datacenter #4, Host #0
      [java] 0.1: Broker_0: VM #5 has been created in Datacenter #5, Host #0
      [java] 0.1: Broker_0: VM #6 has been created in Datacenter #6, Host #0
-     [java] 0.1: Broker_0: Sending cloudlet 0 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 0 to VM #2
      [java] 0.1: Broker_0: Sending cloudlet 1 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 2 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 2 to VM #5
      [java] 0.1: Broker_0: Sending cloudlet 3 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 4 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 5 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 6 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 7 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 8 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 9 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 10 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 11 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 12 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 13 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 14 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 15 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 16 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 17 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 18 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 19 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 20 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 4 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 5 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 6 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 7 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 8 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 9 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 10 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 11 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 12 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 13 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 14 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 15 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 16 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 17 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 18 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 19 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 20 to VM #4
      [java] 0.1: Broker_0: Sending cloudlet 21 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 22 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 23 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 24 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 25 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 26 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 27 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 28 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 29 to VM #4
-     [java] 1477.164: Broker_0: Cloudlet 3 received
-     [java] 1820.76: Broker_0: Cloudlet 0 received
-     [java] 2129.18: Broker_0: Cloudlet 5 received
-     [java] 2383.924: Broker_0: Cloudlet 7 received
-     [java] 2520.264: Broker_0: Cloudlet 19 received
-     [java] 3514.044: Broker_0: Cloudlet 1 received
-     [java] 3834.108: Broker_0: Cloudlet 8 received
-     [java] 4414.548: Broker_0: Cloudlet 2 received
-     [java] 4632.848: Broker_0: Cloudlet 4 received
-     [java] 4900.936: Broker_0: Cloudlet 9 received
-     [java] 5671.684: Broker_0: Cloudlet 10 received
-     [java] 6327.104: Broker_0: Cloudlet 23 received
-     [java] 6675.808: Broker_0: Cloudlet 16 received
-     [java] 6945.84: Broker_0: Cloudlet 13 received
-     [java] 8324.42: Broker_0: Cloudlet 14 received
-     [java] 8736.796: Broker_0: Cloudlet 17 received
-     [java] 8772.944: Broker_0: Cloudlet 6 received
-     [java] 8837.72: Broker_0: Cloudlet 18 received
-     [java] 9083.508: Broker_0: Cloudlet 25 received
-     [java] 10216.52: Broker_0: Cloudlet 28 received
-     [java] 10721.876: Broker_0: Cloudlet 21 received
-     [java] 11107.939999999999: Broker_0: Cloudlet 22 received
-     [java] 11145.328000000001: Broker_0: Cloudlet 29 received
-     [java] 12325.48: Broker_0: Cloudlet 11 received
-     [java] 13332.807999999999: Broker_0: Cloudlet 12 received
-     [java] 14589.744: Broker_0: Cloudlet 24 received
-     [java] 15995.279999999999: Broker_0: Cloudlet 15 received
-     [java] 16963.704: Broker_0: Cloudlet 26 received
-     [java] 17743.652: Broker_0: Cloudlet 20 received
-     [java] 20076.088000000003: Broker_0: Cloudlet 27 received
-     [java] 20076.088000000003: Broker_0: All Cloudlets executed. Finishing...
-     [java] 20076.088000000003: Broker_0: Destroying VM #2
-     [java] 20076.088000000003: Broker_0: Destroying VM #3
-     [java] 20076.088000000003: Broker_0: Destroying VM #4
-     [java] 20076.088000000003: Broker_0: Destroying VM #5
-     [java] 20076.088000000003: Broker_0: Destroying VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 22 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 23 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 24 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 25 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 26 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 27 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 28 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 29 to VM #3
+     [java] 1912.2279999999998: Broker_0: Cloudlet 0 received
+     [java] 2123.348: Broker_0: Cloudlet 3 received
+     [java] 2813.028: Broker_0: Cloudlet 1 received
+     [java] 2995.456: Broker_0: Cloudlet 4 received
+     [java] 3341.252: Broker_0: Cloudlet 5 received
+     [java] 4718.84: Broker_0: Cloudlet 9 received
+     [java] 5172.987999999999: Broker_0: Cloudlet 8 received
+     [java] 5280.872: Broker_0: Cloudlet 11 received
+     [java] 5591.120000000001: Broker_0: Cloudlet 6 received
+     [java] 5635.487999999999: Broker_0: Cloudlet 7 received
+     [java] 6274.3640000000005: Broker_0: Cloudlet 16 received
+     [java] 6373.9: Broker_0: Cloudlet 12 received
+     [java] 6823.512: Broker_0: Cloudlet 2 received
+     [java] 8279.948: Broker_0: Cloudlet 21 received
+     [java] 8640.104: Broker_0: Cloudlet 10 received
+     [java] 9498.288: Broker_0: Cloudlet 13 received
+     [java] 9587.72: Broker_0: Cloudlet 17 received
+     [java] 11041.232: Broker_0: Cloudlet 18 received
+     [java] 11170.056: Broker_0: Cloudlet 25 received
+     [java] 11290.116: Broker_0: Cloudlet 19 received
+     [java] 12599.62: Broker_0: Cloudlet 14 received
+     [java] 12834.276: Broker_0: Cloudlet 22 received
+     [java] 13805.1: Broker_0: Cloudlet 20 received
+     [java] 15192.868: Broker_0: Cloudlet 15 received
+     [java] 16064.008: Broker_0: Cloudlet 23 received
+     [java] 18397.048: Broker_0: Cloudlet 28 received
+     [java] 19330.024: Broker_0: Cloudlet 24 received
+     [java] 20042.564: Broker_0: Cloudlet 29 received
+     [java] 21466.58: Broker_0: Cloudlet 26 received
+     [java] 25263.848: Broker_0: Cloudlet 27 received
+     [java] 25263.848: Broker_0: All Cloudlets executed. Finishing...
+     [java] 25263.848: Broker_0: Destroying VM #2
+     [java] 25263.848: Broker_0: Destroying VM #3
+     [java] 25263.848: Broker_0: Destroying VM #4
+     [java] 25263.848: Broker_0: Destroying VM #5
+     [java] 25263.848: Broker_0: Destroying VM #6
      [java] Broker_0 is shutting down...
      [java] Simulation: No more future events
      [java] CloudInformationService: Notify all CloudSim entities for shutting down.
@@ -109,37 +109,37 @@ rr:
      [java] 
      [java] ========== OUTPUT ==========
      [java] Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
-     [java]     03        SUCCESS        03            03        1477.06        00.1            1477.16
-     [java]     00        SUCCESS        04            04        1820.66        00.1            1820.76
-     [java]     05        SUCCESS        02            02        2129.08        00.1            2129.18
-     [java]     07        SUCCESS        06            06        2383.82        00.1            2383.92
-     [java]     19        SUCCESS        03            03        1043.1        1477.16            2520.26
-     [java]     01        SUCCESS        05            05        3513.94        00.1            3514.04
-     [java]     08        SUCCESS        02            02        1704.93        2129.18            3834.11
-     [java]     02        SUCCESS        04            04        2593.79        1820.76            4414.55
-     [java]     04        SUCCESS        05            05        1118.8        3514.04            4632.85
-     [java]     09        SUCCESS        06            06        2517.01        2383.92            4900.94
-     [java]     10        SUCCESS        02            02        1837.58        3834.11            5671.68
-     [java]     23        SUCCESS        03            03        3806.84        2520.26            6327.1
-     [java]     16        SUCCESS        06            06        1774.87        4900.94            6675.81
-     [java]     13        SUCCESS        02            02        1274.16        5671.68            6945.84
-     [java]     14        SUCCESS        04            04        3909.87        4414.55            8324.42
-     [java]     17        SUCCESS        02            02        1790.96        6945.84            8736.8
-     [java]     06        SUCCESS        05            05        4140.1        4632.85            8772.94
-     [java]     18        SUCCESS        06            06        2161.91        6675.81            8837.72
-     [java]     25        SUCCESS        03            03        2756.4        6327.1            9083.51
-     [java]     28        SUCCESS        04            04        1892.1        8324.42            10216.52
-     [java]     21        SUCCESS        02            02        1985.08        8736.8            10721.88
-     [java]     22        SUCCESS        06            06        2270.22        8837.72            11107.94
-     [java]     29        SUCCESS        04            04        928.81        10216.52            11145.33
-     [java]     11        SUCCESS        05            05        3552.54        8772.94            12325.48
-     [java]     12        SUCCESS        05            05        1007.33        12325.48            13332.81
-     [java]     24        SUCCESS        02            02        3867.87        10721.88            14589.74
-     [java]     15        SUCCESS        05            05        2662.47        13332.81            15995.28
-     [java]     26        SUCCESS        02            02        2373.96        14589.74            16963.7
-     [java]     20        SUCCESS        05            05        1748.37        15995.28            17743.65
-     [java]     27        SUCCESS        02            02        3112.38        16963.7            20076.09
-     [java] Makespan using RR: 6189.09597043257
+     [java]     00        SUCCESS        02            02        1912.13        00.1            1912.23
+     [java]     03        SUCCESS        03            03        2123.25        00.1            2123.35
+     [java]     01        SUCCESS        05            05        2812.93        00.1            2813.03
+     [java]     04        SUCCESS        06            06        2995.36        00.1            2995.46
+     [java]     05        SUCCESS        04            04        3341.15        00.1            3341.25
+     [java]     09        SUCCESS        02            02        2806.61        1912.23            4718.84
+     [java]     08        SUCCESS        03            03        3049.64        2123.35            5172.99
+     [java]     11        SUCCESS        02            02        562.03        4718.84            5280.87
+     [java]     06        SUCCESS        06            06        2595.66        2995.46            5591.12
+     [java]     07        SUCCESS        04            04        2294.24        3341.25            5635.49
+     [java]     16        SUCCESS        02            02        993.49        5280.87            6274.36
+     [java]     12        SUCCESS        03            03        1200.91        5172.99            6373.9
+     [java]     02        SUCCESS        05            05        4010.48        2813.03            6823.51
+     [java]     21        SUCCESS        02            02        2005.58        6274.36            8279.95
+     [java]     10        SUCCESS        04            04        3004.62        5635.49            8640.1
+     [java]     13        SUCCESS        03            03        3124.39        6373.9            9498.29
+     [java]     17        SUCCESS        05            05        2764.21        6823.51            9587.72
+     [java]     18        SUCCESS        05            05        1453.51        9587.72            11041.23
+     [java]     25        SUCCESS        02            02        2890.11        8279.95            11170.06
+     [java]     19        SUCCESS        04            04        2650.01        8640.1            11290.12
+     [java]     14        SUCCESS        03            03        3101.33        9498.29            12599.62
+     [java]     22        SUCCESS        05            05        1793.04        11041.23            12834.28
+     [java]     20        SUCCESS        04            04        2514.98        11290.12            13805.1
+     [java]     15        SUCCESS        03            03        2593.25        12599.62            15192.87
+     [java]     23        SUCCESS        04            04        2258.91        13805.1            16064.01
+     [java]     28        SUCCESS        03            03        3204.18        15192.87            18397.05
+     [java]     24        SUCCESS        04            04        3266.02        16064.01            19330.02
+     [java]     29        SUCCESS        03            03        1645.52        18397.05            20042.56
+     [java]     26        SUCCESS        04            04        2136.56        19330.02            21466.58
+     [java]     27        SUCCESS        04            04        3797.27        21466.58            25263.85
+     [java] Makespan using RR: 5405.6251989024695
      [java] lab.cloudsim.taskscheduling.RoundRobinScheduler finished!
 
 BUILD SUCCESSFUL

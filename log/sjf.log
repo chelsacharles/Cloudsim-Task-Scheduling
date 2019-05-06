@@ -29,72 +29,72 @@ sjf:
      [java] 0.1: Broker_0: VM #4 has been created in Datacenter #4, Host #0
      [java] 0.1: Broker_0: VM #5 has been created in Datacenter #5, Host #0
      [java] 0.1: Broker_0: VM #6 has been created in Datacenter #6, Host #0
-     [java] 0.1: Broker_0: Sending cloudlet 0 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 1 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 2 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 3 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 0 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 1 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 2 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 3 to VM #5
      [java] 0.1: Broker_0: Sending cloudlet 4 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 5 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 6 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 7 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 8 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 9 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 10 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 11 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 5 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 6 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 7 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 8 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 9 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 10 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 11 to VM #3
      [java] 0.1: Broker_0: Sending cloudlet 12 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 13 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 14 to VM #3
-     [java] 0.1: Broker_0: Sending cloudlet 15 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 16 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 17 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 13 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 14 to VM #2
+     [java] 0.1: Broker_0: Sending cloudlet 15 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 16 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 17 to VM #4
      [java] 0.1: Broker_0: Sending cloudlet 18 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 19 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 20 to VM #3
+     [java] 0.1: Broker_0: Sending cloudlet 19 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 20 to VM #4
      [java] 0.1: Broker_0: Sending cloudlet 21 to VM #3
      [java] 0.1: Broker_0: Sending cloudlet 22 to VM #6
-     [java] 0.1: Broker_0: Sending cloudlet 23 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 23 to VM #3
      [java] 0.1: Broker_0: Sending cloudlet 24 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 25 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 26 to VM #5
-     [java] 0.1: Broker_0: Sending cloudlet 27 to VM #4
-     [java] 0.1: Broker_0: Sending cloudlet 28 to VM #2
-     [java] 0.1: Broker_0: Sending cloudlet 29 to VM #2
-     [java] 962.768: Broker_0: Cloudlet 2 received
-     [java] 2252.352: Broker_0: Cloudlet 7 received
-     [java] 2738.556: Broker_0: Cloudlet 0 received
-     [java] 3313.24: Broker_0: Cloudlet 1 received
-     [java] 3530.044: Broker_0: Cloudlet 5 received
-     [java] 3946.912: Broker_0: Cloudlet 4 received
-     [java] 4789.144: Broker_0: Cloudlet 14 received
-     [java] 4860.224: Broker_0: Cloudlet 3 received
-     [java] 5804.888: Broker_0: Cloudlet 11 received
-     [java] 6256.1320000000005: Broker_0: Cloudlet 20 received
-     [java] 6766.7: Broker_0: Cloudlet 15 received
-     [java] 7023.111999999999: Broker_0: Cloudlet 6 received
-     [java] 7273.316000000001: Broker_0: Cloudlet 10 received
-     [java] 7863.132: Broker_0: Cloudlet 16 received
-     [java] 7902.460000000001: Broker_0: Cloudlet 21 received
-     [java] 9159.300000000001: Broker_0: Cloudlet 12 received
-     [java] 9233.528: Broker_0: Cloudlet 17 received
-     [java] 10269.028: Broker_0: Cloudlet 19 received
-     [java] 10505.276: Broker_0: Cloudlet 8 received
-     [java] 10986.936: Broker_0: Cloudlet 26 received
-     [java] 11186.772: Broker_0: Cloudlet 13 received
-     [java] 12820.104: Broker_0: Cloudlet 9 received
-     [java] 13348.684000000001: Broker_0: Cloudlet 18 received
-     [java] 14136.896: Broker_0: Cloudlet 24 received
-     [java] 15178.800000000001: Broker_0: Cloudlet 25 received
-     [java] 15618.904: Broker_0: Cloudlet 22 received
-     [java] 15851.18: Broker_0: Cloudlet 23 received
-     [java] 18195.448: Broker_0: Cloudlet 28 received
-     [java] 18211.34: Broker_0: Cloudlet 27 received
-     [java] 20401.72: Broker_0: Cloudlet 29 received
-     [java] 20401.72: Broker_0: All Cloudlets executed. Finishing...
-     [java] 20401.72: Broker_0: Destroying VM #2
-     [java] 20401.72: Broker_0: Destroying VM #3
-     [java] 20401.72: Broker_0: Destroying VM #4
-     [java] 20401.72: Broker_0: Destroying VM #5
-     [java] 20401.72: Broker_0: Destroying VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 25 to VM #5
+     [java] 0.1: Broker_0: Sending cloudlet 26 to VM #4
+     [java] 0.1: Broker_0: Sending cloudlet 27 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 28 to VM #6
+     [java] 0.1: Broker_0: Sending cloudlet 29 to VM #3
+     [java] 1741.464: Broker_0: Cloudlet 17 received
+     [java] 1912.2279999999998: Broker_0: Cloudlet 0 received
+     [java] 1915.028: Broker_0: Cloudlet 7 received
+     [java] 2595.764: Broker_0: Cloudlet 6 received
+     [java] 2813.028: Broker_0: Cloudlet 1 received
+     [java] 3295.944: Broker_0: Cloudlet 9 received
+     [java] 4256.448: Broker_0: Cloudlet 20 received
+     [java] 4322.72: Broker_0: Cloudlet 8 received
+     [java] 4569.624: Broker_0: Cloudlet 2 received
+     [java] 5167.248: Broker_0: Cloudlet 11 received
+     [java] 5564.48: Broker_0: Cloudlet 3 received
+     [java] 6393.004000000001: Broker_0: Cloudlet 26 received
+     [java] 6570.716: Broker_0: Cloudlet 4 received
+     [java] 7252.032: Broker_0: Cloudlet 12 received
+     [java] 7575.152: Broker_0: Cloudlet 5 received
+     [java] 8096.188: Broker_0: Cloudlet 18 received
+     [java] 8184.832: Broker_0: Cloudlet 10 received
+     [java] 8291.635999999999: Broker_0: Cloudlet 13 received
+     [java] 8759.188: Broker_0: Cloudlet 14 received
+     [java] 9793.424: Broker_0: Cloudlet 22 received
+     [java] 10884.883999999998: Broker_0: Cloudlet 15 received
+     [java] 11192.192: Broker_0: Cloudlet 19 received
+     [java] 11220.339999999998: Broker_0: Cloudlet 16 received
+     [java] 11440.892000000002: Broker_0: Cloudlet 27 received
+     [java] 11984.688: Broker_0: Cloudlet 24 received
+     [java] 13038.215999999999: Broker_0: Cloudlet 21 received
+     [java] 13613.559999999998: Broker_0: Cloudlet 23 received
+     [java] 14836.128: Broker_0: Cloudlet 28 received
+     [java] 15222.787999999999: Broker_0: Cloudlet 25 received
+     [java] 15259.075999999997: Broker_0: Cloudlet 29 received
+     [java] 15259.075999999997: Broker_0: All Cloudlets executed. Finishing...
+     [java] 15259.075999999997: Broker_0: Destroying VM #2
+     [java] 15259.075999999997: Broker_0: Destroying VM #3
+     [java] 15259.075999999997: Broker_0: Destroying VM #4
+     [java] 15259.075999999997: Broker_0: Destroying VM #5
+     [java] 15259.075999999997: Broker_0: Destroying VM #6
      [java] Broker_0 is shutting down...
      [java] Simulation: No more future events
      [java] CloudInformationService: Notify all CloudSim entities for shutting down.
@@ -109,37 +109,37 @@ sjf:
      [java] 
      [java] ========== OUTPUT ==========
      [java] Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
-     [java]     02        SUCCESS        03            03        962.67        00.1            962.77
-     [java]     07        SUCCESS        05            05        2252.25        00.1            2252.35
-     [java]     00        SUCCESS        06            06        2738.46        00.1            2738.56
-     [java]     01        SUCCESS        04            04        3313.14        00.1            3313.24
-     [java]     05        SUCCESS        03            03        2567.28        962.77            3530.04
-     [java]     04        SUCCESS        02            02        3946.81        00.1            3946.91
-     [java]     14        SUCCESS        03            03        1259.1        3530.04            4789.14
-     [java]     03        SUCCESS        06            06        2121.67        2738.56            4860.22
-     [java]     11        SUCCESS        05            05        3552.54        2252.35            5804.89
-     [java]     20        SUCCESS        03            03        1466.99        4789.14            6256.13
-     [java]     15        SUCCESS        02            02        2819.79        3946.91            6766.7
-     [java]     06        SUCCESS        04            04        3709.87        3313.24            7023.11
-     [java]     10        SUCCESS        06            06        2413.09        4860.22            7273.32
-     [java]     16        SUCCESS        02            02        1096.43        6766.7            7863.13
-     [java]     21        SUCCESS        03            03        1646.33        6256.13            7902.46
-     [java]     12        SUCCESS        06            06        1885.98        7273.32            9159.3
-     [java]     17        SUCCESS        05            05        3428.64        5804.89            9233.53
-     [java]     19        SUCCESS        02            02        2405.9        7863.13            10269.03
-     [java]     08        SUCCESS        04            04        3482.16        7023.11            10505.28
-     [java]     26        SUCCESS        05            05        1753.41        9233.53            10986.94
-     [java]     13        SUCCESS        06            06        2027.47        9159.3            11186.77
-     [java]     09        SUCCESS        04            04        2314.83        10505.28            12820.1
-     [java]     18        SUCCESS        06            06        2161.91        11186.77            13348.68
-     [java]     24        SUCCESS        02            02        3867.87        10269.03            14136.9
-     [java]     25        SUCCESS        02            02        1041.9        14136.9            15178.8
-     [java]     22        SUCCESS        06            06        2270.22        13348.68            15618.9
-     [java]     23        SUCCESS        04            04        3031.08        12820.1            15851.18
-     [java]     28        SUCCESS        02            02        3016.65        15178.8            18195.45
-     [java]     27        SUCCESS        04            04        2360.16        15851.18            18211.34
-     [java]     29        SUCCESS        02            02        2206.27        18195.45            20401.72
-     [java] Makespan using SJF: 5813.5674424778645
+     [java]     17        SUCCESS        04            04        1741.36        00.1            1741.46
+     [java]     00        SUCCESS        02            02        1912.13        00.1            1912.23
+     [java]     07        SUCCESS        03            03        1914.93        00.1            1915.03
+     [java]     06        SUCCESS        06            06        2595.66        00.1            2595.76
+     [java]     01        SUCCESS        05            05        2812.93        00.1            2813.03
+     [java]     09        SUCCESS        03            03        1380.92        1915.03            3295.94
+     [java]     20        SUCCESS        04            04        2514.98        1741.46            4256.45
+     [java]     08        SUCCESS        06            06        1726.96        2595.76            4322.72
+     [java]     02        SUCCESS        02            02        2657.4        1912.23            4569.62
+     [java]     11        SUCCESS        03            03        1871.3        3295.94            5167.25
+     [java]     03        SUCCESS        05            05        2751.45        2813.03            5564.48
+     [java]     26        SUCCESS        04            04        2136.56        4256.45            6393
+     [java]     04        SUCCESS        02            02        2001.09        4569.62            6570.72
+     [java]     12        SUCCESS        06            06        2929.31        4322.72            7252.03
+     [java]     05        SUCCESS        05            05        2010.67        5564.48            7575.15
+     [java]     18        SUCCESS        06            06        844.16        7252.03            8096.19
+     [java]     10        SUCCESS        02            02        1614.12        6570.72            8184.83
+     [java]     13        SUCCESS        03            03        3124.39        5167.25            8291.64
+     [java]     14        SUCCESS        02            02        574.36        8184.83            8759.19
+     [java]     22        SUCCESS        06            06        1697.24        8096.19            9793.42
+     [java]     15        SUCCESS        03            03        2593.25        8291.64            10884.88
+     [java]     19        SUCCESS        05            05        3617.04        7575.15            11192.19
+     [java]     16        SUCCESS        03            03        335.46        10884.88            11220.34
+     [java]     27        SUCCESS        06            06        1647.47        9793.42            11440.89
+     [java]     24        SUCCESS        02            02        3225.5        8759.19            11984.69
+     [java]     21        SUCCESS        03            03        1817.88        11220.34            13038.22
+     [java]     23        SUCCESS        03            03        575.34        13038.22            13613.56
+     [java]     28        SUCCESS        06            06        3395.24        11440.89            14836.13
+     [java]     25        SUCCESS        05            05        4030.6        11192.19            15222.79
+     [java]     29        SUCCESS        03            03        1645.52        13613.56            15259.08
+     [java] Makespan using SJF: 6367.787880200478
      [java] lab.cloudsim.taskscheduling.SJF_Scheduler finished!
 
 BUILD SUCCESSFUL

@@ -12,57 +12,138 @@ fcfs:
      [java] Initialising...
      [java] Starting CloudSim version 3.0
      [java] Datacenter_0 is starting...
+     [java] Datacenter_1 is starting...
+     [java] Datacenter_2 is starting...
+     [java] Datacenter_3 is starting...
+     [java] Datacenter_4 is starting...
      [java] Broker_0 is starting...
      [java] Entities started.
-     [java] 0.0: Broker_0: Cloud Resource List received with 1 resource(s)
+     [java] 0.0: Broker_0: Cloud Resource List received with 5 resource(s)
      [java] 0.0: Broker_0: Trying to Create VM #2 in Datacenter_0
-     [java] [VmScheduler.vmCreate] Allocation of VM #2 to Host #0 failed by RAM
-     [java] 0.1: Broker_0: Creation of VM #2 failed in Datacenter #2
-     [java] 0.1: Broker_0: none of the required VMs could be created. Aborting
+     [java] 0.0: Broker_0: Trying to Create VM #3 in Datacenter_0
+     [java] 0.0: Broker_0: Trying to Create VM #4 in Datacenter_0
+     [java] 0.0: Broker_0: Trying to Create VM #5 in Datacenter_0
+     [java] 0.0: Broker_0: Trying to Create VM #6 in Datacenter_0
+     [java] [VmScheduler.vmCreate] Allocation of VM #6 to Host #0 failed by RAM
+     [java] 0.1: Broker_0: VM #2 has been created in Datacenter #2, Host #0
+     [java] 0.1: Broker_0: VM #3 has been created in Datacenter #2, Host #0
+     [java] 0.1: Broker_0: VM #4 has been created in Datacenter #2, Host #0
+     [java] 0.1: Broker_0: VM #5 has been created in Datacenter #2, Host #0
+     [java] 0.1: Broker_0: Creation of VM #6 failed in Datacenter #2
+     [java] 0.1: Broker_0: Trying to Create VM #6 in Datacenter_1
+     [java] 0.2: Broker_0: VM #6 has been created in Datacenter #3, Host #0
+     [java] 0.2: Broker_0: Sending cloudlet 0 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 1 to VM #3
+     [java] 0.2: Broker_0: Sending cloudlet 2 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 3 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 4 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 5 to VM #3
+     [java] 0.2: Broker_0: Sending cloudlet 6 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 7 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 8 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 9 to VM #3
+     [java] 0.2: Broker_0: Sending cloudlet 10 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 11 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 12 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 13 to VM #5
+     [java] 0.2: Broker_0: Sending cloudlet 14 to VM #3
+     [java] 0.2: Broker_0: Sending cloudlet 15 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 16 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 17 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 18 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 19 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 20 to VM #3
+     [java] 0.2: Broker_0: Sending cloudlet 21 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 22 to VM #5
+     [java] 0.2: Broker_0: Sending cloudlet 23 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 24 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 25 to VM #5
+     [java] 0.2: Broker_0: Sending cloudlet 26 to VM #2
+     [java] 0.2: Broker_0: Sending cloudlet 27 to VM #6
+     [java] 0.2: Broker_0: Sending cloudlet 28 to VM #4
+     [java] 0.2: Broker_0: Sending cloudlet 29 to VM #4
+     [java] 1195.776: Broker_0: Cloudlet 1 received
+     [java] 1800.472: Broker_0: Cloudlet 6 received
+     [java] 2842.064: Broker_0: Cloudlet 2 received
+     [java] 2965.468: Broker_0: Cloudlet 13 received
+     [java] 3354.828: Broker_0: Cloudlet 0 received
+     [java] 4429.8279999999995: Broker_0: Cloudlet 5 received
+     [java] 4758.512: Broker_0: Cloudlet 22 received
+     [java] 4899.976: Broker_0: Cloudlet 3 received
+     [java] 5256.6359999999995: Broker_0: Cloudlet 4 received
+     [java] 5810.744: Broker_0: Cloudlet 9 received
+     [java] 5992.6359999999995: Broker_0: Cloudlet 8 received
+     [java] 6998.0: Broker_0: Cloudlet 17 received
+     [java] 7055.147999999999: Broker_0: Cloudlet 7 received
+     [java] 7606.752: Broker_0: Cloudlet 10 received
+     [java] 8213.52: Broker_0: Cloudlet 18 received
+     [java] 8789.108: Broker_0: Cloudlet 25 received
+     [java] 8912.076000000001: Broker_0: Cloudlet 14 received
+     [java] 9241.516000000001: Broker_0: Cloudlet 15 received
+     [java] 10145.276: Broker_0: Cloudlet 11 received
+     [java] 10175.300000000001: Broker_0: Cloudlet 21 received
+     [java] 10235.008000000002: Broker_0: Cloudlet 16 received
+     [java] 12128.124000000002: Broker_0: Cloudlet 20 received
+     [java] 12748.060000000001: Broker_0: Cloudlet 19 received
+     [java] 13074.588: Broker_0: Cloudlet 12 received
+     [java] 13441.316: Broker_0: Cloudlet 24 received
+     [java] 13692.764000000001: Broker_0: Cloudlet 23 received
+     [java] 14722.056: Broker_0: Cloudlet 27 received
+     [java] 15801.516000000001: Broker_0: Cloudlet 28 received
+     [java] 17081.864: Broker_0: Cloudlet 26 received
+     [java] 17270.960000000003: Broker_0: Cloudlet 29 received
+     [java] 17270.960000000003: Broker_0: All Cloudlets executed. Finishing...
+     [java] 17270.960000000003: Broker_0: Destroying VM #2
+     [java] 17270.960000000003: Broker_0: Destroying VM #3
+     [java] 17270.960000000003: Broker_0: Destroying VM #4
+     [java] 17270.960000000003: Broker_0: Destroying VM #5
+     [java] 17270.960000000003: Broker_0: Destroying VM #6
      [java] Broker_0 is shutting down...
      [java] Simulation: No more future events
      [java] CloudInformationService: Notify all CloudSim entities for shutting down.
      [java] Datacenter_0 is shutting down...
+     [java] Datacenter_1 is shutting down...
+     [java] Datacenter_2 is shutting down...
+     [java] Datacenter_3 is shutting down...
+     [java] Datacenter_4 is shutting down...
      [java] Broker_0 is shutting down...
      [java] Simulation completed.
      [java] Simulation completed.
      [java] 
      [java] ========== OUTPUT ==========
      [java] Cloudlet ID    STATUS    Data center ID    VM ID        Time    Start Time    Finish Time
-     [java] java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-     [java] 	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-     [java] 	at java.util.ArrayList.get(ArrayList.java:433)
-     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.calcMakespan(FCFS_Scheduler.java:168)
-     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.printCloudletList(FCFS_Scheduler.java:159)
-     [java] 	at lab.cloudsim.taskscheduling.FCFS_Scheduler.main(FCFS_Scheduler.java:111)
-     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
-     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:218)
-     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:153)
-     [java] 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:772)
-     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:222)
-     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:136)
-     [java] 	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:109)
-     [java] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
-     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-     [java] 	at java.lang.reflect.Method.invoke(Method.java:498)
-     [java] 	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
-     [java] 	at org.apache.tools.ant.Task.perform(Task.java:348)
-     [java] 	at org.apache.tools.ant.Target.execute(Target.java:435)
-     [java] 	at org.apache.tools.ant.Target.performTasks(Target.java:456)
-     [java] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)
-     [java] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1376)
-     [java] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
-     [java] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
-     [java] 	at org.apache.tools.ant.Main.runBuild(Main.java:853)
-     [java] 	at org.apache.tools.ant.Main.startAnt(Main.java:235)
-     [java] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:285)
-     [java] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:112)
-     [java] The simulation has been terminated due to an unexpected error
+     [java]     00        SUCCESS        02            04        3354.63        00.2            3354.83
+     [java]     01        SUCCESS        02            03        1195.58        00.2            1195.78
+     [java]     02        SUCCESS        03            06        2841.86        00.2            2842.06
+     [java]     03        SUCCESS        03            06        2057.91        2842.06            4899.98
+     [java]     04        SUCCESS        02            04        1901.81        3354.83            5256.64
+     [java]     05        SUCCESS        02            03        3234.05        1195.78            4429.83
+     [java]     06        SUCCESS        02            02        1800.27        00.2            1800.47
+     [java]     07        SUCCESS        03            06        2155.17        4899.98            7055.15
+     [java]     08        SUCCESS        02            02        4192.16        1800.47            5992.64
+     [java]     09        SUCCESS        02            03        1380.92        4429.83            5810.74
+     [java]     10        SUCCESS        02            02        1614.12        5992.64            7606.75
+     [java]     11        SUCCESS        03            06        3090.13        7055.15            10145.28
+     [java]     12        SUCCESS        03            06        2929.31        10145.28            13074.59
+     [java]     13        SUCCESS        02            05        2965.27        00.2            2965.47
+     [java]     14        SUCCESS        02            03        3101.33        5810.74            8912.08
+     [java]     15        SUCCESS        02            02        1634.76        7606.75            9241.52
+     [java]     16        SUCCESS        02            02        993.49        9241.52            10235.01
+     [java]     17        SUCCESS        02            04        1741.36        5256.64            6998
+     [java]     18        SUCCESS        02            04        1215.52        6998            8213.52
+     [java]     19        SUCCESS        02            02        2513.05        10235.01            12748.06
+     [java]     20        SUCCESS        02            03        3216.05        8912.08            12128.12
+     [java]     21        SUCCESS        02            04        1961.78        8213.52            10175.3
+     [java]     22        SUCCESS        02            05        1793.04        2965.47            4758.51
+     [java]     23        SUCCESS        02            02        944.7        12748.06            13692.76
+     [java]     24        SUCCESS        02            04        3266.02        10175.3            13441.32
+     [java]     25        SUCCESS        02            05        4030.6        4758.51            8789.11
+     [java]     26        SUCCESS        02            02        3389.1        13692.76            17081.86
+     [java]     27        SUCCESS        03            06        1647.47        13074.59            14722.06
+     [java]     28        SUCCESS        02            04        2360.2        13441.32            15801.52
+     [java]     29        SUCCESS        02            04        1469.44        15801.52            17270.96
+     [java] Makespan using FCFS: 4051.872334706769
+     [java] lab.cloudsim.taskscheduling.FCFS_Scheduler finished!
 
 BUILD SUCCESSFUL
 Total time: 0 seconds

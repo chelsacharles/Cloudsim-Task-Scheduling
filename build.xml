@@ -71,6 +71,10 @@
 
     <target name="clean" description="clean up" >
         <delete dir="${class.dir}" />
+        <delete dir="log" />
+        <delete file="lib/taskscheduling.jar" />
+        <delete file="ExecutionTimeMatrix.txt" />
+        <delete file="CommunicationTimeMatrix.txt" />
     </target>
 
 	<target name="rr" description="Round Robin Scheduler Algorithm" >
